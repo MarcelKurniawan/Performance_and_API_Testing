@@ -1,0 +1,17 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1700670393693,324,POST Registration,200,OK,1 Users - 1 Seconds - 1 Loop 1-1,text,true,,1743,549,1,1,https://secondhand.binaracademy.org/users.json,324,0,31
+1700670394019,17,POST Sign In,200,OK,1 Users - 1 Seconds - 1 Loop 1-1,text,true,,1963,542,1,1,https://secondhand.binaracademy.org/users/sign_in.json,17,0,0
+1700670394036,10,GET Categories,200,OK,1 Users - 1 Seconds - 1 Loop 1-1,text,true,,1070,423,1,1,https://secondhand.binaracademy.org/categories.json,10,0,0
+1700670394047,166,POST Create Offers,200,OK,1 Users - 1 Seconds - 1 Loop 1-1,text,true,,28025,929,1,1,https://secondhand.binaracademy.org/,13,0,0
+1700670394047,13,POST Create Offers-0,302,Found,1 Users - 1 Seconds - 1 Loop 1-1,text,true,,1103,521,1,1,https://secondhand.binaracademy.org/offers.json,13,0,0
+1700670394060,153,POST Create Offers-1,200,OK,1 Users - 1 Seconds - 1 Loop 1-1,text,true,,26922,408,1,1,https://secondhand.binaracademy.org/,152,0,0
+1700670394213,19,GET Offers,200,OK,1 Users - 1 Seconds - 1 Loop 1-1,text,true,,1130,431,1,1,https://secondhand.binaracademy.org/users/90004/offers.json,19,0,0
+1700670394233,160,PUT Offer,200,OK,1 Users - 1 Seconds - 1 Loop 1-1,text,true,,28011,902,1,1,https://secondhand.binaracademy.org/,12,0,0
+1700670394233,12,PUT Offer-0,302,Found,1 Users - 1 Seconds - 1 Loop 1-1,text,true,,1103,494,1,1,https://secondhand.binaracademy.org/offers/64594.json,12,0,0
+1700670394245,148,PUT Offer-1,200,OK,1 Users - 1 Seconds - 1 Loop 1-1,text,true,,26908,408,1,1,https://secondhand.binaracademy.org/,148,0,0
+1700670394394,25,GET Products,200,OK,1 Users - 1 Seconds - 1 Loop 1-1,text,true,,1760,427,1,1,https://secondhand.binaracademy.org/products/64594.json,25,0,0
+1700670394419,32,POST Products,201,Created,1 Users - 1 Seconds - 1 Loop 1-1,text,true,,1815,1671,1,1,https://secondhand.binaracademy.org/products.json,32,0,0
+1700670394451,29,PUT Products,200,OK,1 Users - 1 Seconds - 1 Loop 1-1,text,true,,1822,1668,1,1,https://secondhand.binaracademy.org/products/65172.json,29,0,0
+1700670394480,17,DELETE Products,204,No Content,1 Users - 1 Seconds - 1 Loop 1-1,,true,,885,563,1,1,https://secondhand.binaracademy.org/products/65172.json,0,0,0
+1700670394497,20,PUT Profiles,200,OK,1 Users - 1 Seconds - 1 Loop 1-1,text,true,,1462,1249,1,1,https://secondhand.binaracademy.org/profiles.json,20,0,0
+1700670394517,18,GET Profiles,200,OK,1 Users - 1 Seconds - 1 Loop 1-1,text,true,,1466,421,1,1,https://secondhand.binaracademy.org/profiles.json,18,0,0
